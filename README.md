@@ -29,7 +29,7 @@
 
 ### Dependencies
 - Python 3.10.9
-- numpy, scipy, pandas, sklearn, 
+- numpy, scipy, pandas, sklearn, skmultilearn
 - nltk
 - sqlalchemy
 - flask, plotly
