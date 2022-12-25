@@ -8,7 +8,7 @@
         `python data/process_data.py data/disaster_messages.csv data/disaster_categories.csv data/DisasterResponse.db`
     - To run ML pipeline that trains classifier and saves given database to train the model on and model type (saves the trained model by its type name)
         `python models/train_classifier.py data/DisasterResponse.db <MODEL_TYPE_OPTIONAL>`
-    - Possible options for model are as follows (NOTE: if you do not provide a model_type, then it defaults to BinaryRelevance-MultinomialNB-TFIDF as it is the fastest to compute for demonstrations reasons):
+    - Possible options for model are as follows (NOTE: if you do not provide a model_type, then it defaults to BinaryRelevance-MultinomialNB-TFIDF as it is the fastest to compute for demonstrations purposes):
         - BinaryRelevance-MultinomialNB-TFIDF
         - ClassifierChain-MultinomialNB-TFIDF
         - LabelPowerset-MultinomialNB-TFIDF
